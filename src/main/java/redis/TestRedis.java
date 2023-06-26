@@ -20,7 +20,7 @@ public class TestRedis {
  
         String username = jedis.get("User");
         System.out.println("Username: " + username);
-     // Thực hiện GET Pass "123456a"
+     // Thực hiện GET Pass "123456a" a
         String password = jedis.get("Pass");
         System.out.println("Password: " + password);
         

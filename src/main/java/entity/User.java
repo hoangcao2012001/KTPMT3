@@ -3,12 +3,12 @@ package entity;
 public class User {
 	private String UserName;
 	private String Messager;
-	private String age;
+	private int age;
 	public User() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public User(String userName, String messager, String age) {
+	public User(String userName, String messager, int age) {
 		super();
 		UserName = userName;
 		Messager = messager;
@@ -26,10 +26,10 @@ public class User {
 	public void setMessager(String messager) {
 		Messager = messager;
 	}
-	public String getAge() {
+	public int getAge() {
 		return age;
 	}
-	public void setAge(String age) {
+	public void setAge(int age) {
 		this.age = age;
 	}
 	@Override
